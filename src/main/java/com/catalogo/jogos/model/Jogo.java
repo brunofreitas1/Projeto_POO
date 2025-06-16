@@ -1,10 +1,10 @@
 package com.catalogo.jogos.model;
 
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
-import javax.persistence.*;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 
 @Data
@@ -36,4 +36,3 @@ public class Jogo {
     @NotNull
     private Double preco;
 }
-
